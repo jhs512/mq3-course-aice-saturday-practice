@@ -9,8 +9,8 @@
       "id": "sat-aice-split",
       "title": "데이터를 나누는 이유부터 확인해요",
       "repository": "jhs512/mq3-lesson-sat-aice-split",
-      "revision": "v1.0.0",
-      "sha256": "00e3db0075f331f780542b05a9176664d339d3cb930ae4099460240b3408699c",
+      "revision": "v1.0.1",
+      "sha256": "e498cad92d8be874d90feb8d2cd6a54fb3418387e93f9514a9b21f58fb677dac",
       "prerequisites": [],
       "required": true,
       "review_enabled": false
@@ -19,8 +19,8 @@
       "id": "sat-aice-options",
       "title": "분리 옵션을 바꾸며 원리를 확인해요",
       "repository": "jhs512/mq3-lesson-sat-aice-options",
-      "revision": "v1.0.0",
-      "sha256": "193352bdf26af70547f9bed4917471d3d7e4d7dec0b5e5f5d650e0d1cdf1a682",
+      "revision": "v1.0.1",
+      "sha256": "c03a3665273063adfa3f1e3062a4a5ffa008fc8a35a16a0c1916f6b6ef8a5b94",
       "prerequisites": [
         "sat-aice-split"
       ],
@@ -31,8 +31,8 @@
       "id": "sat-aice-mock-inspect",
       "title": "모의문제 · 표와 그래프를 읽어요",
       "repository": "jhs512/mq3-lesson-sat-aice-mock-inspect",
-      "revision": "v1.0.0",
-      "sha256": "a8c031341c60d59b494ab9aae755745a656fc4c8a2b091545f73864253320d6c",
+      "revision": "v1.0.1",
+      "sha256": "07af6de2877462c01703eb4df969c68b2c849f699f8228568c75308beffe21bf",
       "prerequisites": [
         "sat-aice-options"
       ],
@@ -43,8 +43,8 @@
       "id": "sat-aice-mock-clean",
       "title": "모의문제 · 전처리부터 분리까지 풀어요",
       "repository": "jhs512/mq3-lesson-sat-aice-mock-clean",
-      "revision": "v1.0.0",
-      "sha256": "03b7787be776e3ba9ab1ac66ebd546865b4571e86b7df6f8a975a4982e708b83",
+      "revision": "v1.0.1",
+      "sha256": "fa85bda62bc5bbdd0b9462a6533f9e33f9d430e9d4a3a8374d6e24dc24041896",
       "prerequisites": [
         "sat-aice-mock-inspect"
       ],
