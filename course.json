@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "aice-saturday-practice",
+  "title": "에이스 · 데이터 분리와 모의문제 특강",
+  "description": "토요일 09~12시 G강의장이에요. 데이터 분리부터 분석·전처리 문제를 풀어요.",
+  "repository": "jhs512/mq3-course-aice-saturday-practice",
+  "lessons": [
+    {
+      "id": "sat-aice-split",
+      "title": "데이터를 나누는 이유부터 확인해요",
+      "repository": "jhs512/mq3-lesson-sat-aice-split",
+      "revision": "v1.0.0",
+      "sha256": "00e3db0075f331f780542b05a9176664d339d3cb930ae4099460240b3408699c",
+      "prerequisites": [],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "sat-aice-options",
+      "title": "분리 옵션을 바꾸며 원리를 확인해요",
+      "repository": "jhs512/mq3-lesson-sat-aice-options",
+      "revision": "v1.0.0",
+      "sha256": "193352bdf26af70547f9bed4917471d3d7e4d7dec0b5e5f5d650e0d1cdf1a682",
+      "prerequisites": [
+        "sat-aice-split"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "sat-aice-mock-inspect",
+      "title": "모의문제 · 표와 그래프를 읽어요",
+      "repository": "jhs512/mq3-lesson-sat-aice-mock-inspect",
+      "revision": "v1.0.0",
+      "sha256": "a8c031341c60d59b494ab9aae755745a656fc4c8a2b091545f73864253320d6c",
+      "prerequisites": [
+        "sat-aice-options"
+      ],
+      "required": true,
+      "review_enabled": false
+    },
+    {
+      "id": "sat-aice-mock-clean",
+      "title": "모의문제 · 전처리부터 분리까지 풀어요",
+      "repository": "jhs512/mq3-lesson-sat-aice-mock-clean",
+      "revision": "v1.0.0",
+      "sha256": "03b7787be776e3ba9ab1ac66ebd546865b4571e86b7df6f8a975a4982e708b83",
+      "prerequisites": [
+        "sat-aice-mock-inspect"
+      ],
+      "required": true,
+      "review_enabled": false
+    }
+  ]
+}
